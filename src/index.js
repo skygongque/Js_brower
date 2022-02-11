@@ -9,7 +9,7 @@ var catvm2code = catvm2.GetCode();
 
 
 
-const codefile = `${__dirname}/code.js`;
+const codefile = `${__dirname}/code3.js`;
 const vm = new VM();
 const script = new VMScript(catvm2code + fs.readFileSync(codefile), `${__dirname}/我正在调试代码.js`)
 debugger

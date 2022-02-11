@@ -41,7 +41,10 @@ window.localStorage.getItem=function getItem() {debugger;}  ;catvm.safefunction(
 window.localStorage=catvm.proxy(window.localStorage)
 
 ///////////////////
-
+Audio = {};
+Image = function(){
+    debugger;
+};
 
 
 window.__proto__=Window.prototype ;
